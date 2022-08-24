@@ -37,4 +37,8 @@ public class MapImpl<K, V> implements Map<K, V> {
         }
         return null;
     }
+
+    public int size() {
+        return values.size();
+    }
 }
